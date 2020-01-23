@@ -44,3 +44,4 @@ rescue => error
   puts error
 end
 
+puts "Hi Mom!"

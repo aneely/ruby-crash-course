@@ -39,6 +39,6 @@ class FizzBuzz
 end
 
 puts "bizzy the FizzBuzz robot's (instance) output:"
-bizzy = FizzBuzz.new(15)
+bizzy = FizzBuzz.new(10)
 bizzy.output
 
