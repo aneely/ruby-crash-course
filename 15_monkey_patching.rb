@@ -29,4 +29,4 @@ puts 15.even_split?(4)
 puts 15.even_split?(5)
 
 puts "\nAnd fizz buzz is just iterating outputing numbers as strings:"
-(1..15).to_a.each { |number| puts number }
+(1..15).each { |number| puts number }

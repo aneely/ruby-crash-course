@@ -30,7 +30,7 @@ puts 11
 puts 12
 puts 13
 puts 14
-puts 15
+puts 15 # You can leave a comment at the end of a line. Ruby ignores after '#'.
 puts 16
 puts 17
 puts 18
