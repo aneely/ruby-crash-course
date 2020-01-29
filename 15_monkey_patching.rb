@@ -1,4 +1,4 @@
-require_relative '03_title'
+require_relative 'helpers/title'
 
 title("Monkey-Patching")
 # You can change the way things work at runtime. Try this at home!

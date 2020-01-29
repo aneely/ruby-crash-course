@@ -1,19 +1,10 @@
-require_relative '03_title'
+require_relative 'helpers/title'
 
-title("Modules")
-# Code sharing for sane people
-
-# Knowing if numbers are evenly divisible by another number
-# might be useful for other robots... How to we make it so
-# that our robots can have it without keeping in their Class?
-
-# Let's move it to a module...
 module NumberUtilities
   def even_split?(num, by)
     num % by == 0
   end
 end
-
 
 class FizzBuzz
   # ...and mix that into our robot factory!
@@ -38,7 +29,12 @@ class FizzBuzz
   end
 end
 
-puts "bizzy the FizzBuzz robot's (instance) output:"
-bizzy = FizzBuzz.new(10)
-bizzy.output
+title("Oh noes! An edge case!")
+# Hrm... this is going to break down at 15, because we don't ever get both..
+
+puts "old and busted fuzzy output"
+fuzzy = FizzBuzz.new(15)
+fuzzy.output
+# crap
+puts "\nWe need 15 to print 'fizzbuzz', not just 'fizz'... :thinking-face:"
 

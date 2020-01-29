@@ -1,5 +1,4 @@
-require_relative '03_title'
-
+require_relative 'helpers/title'
 
 title("Loops, Lists, and Iteration")
 # Let's make Ruby repeat itself so we don't have to

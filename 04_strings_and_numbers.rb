@@ -1,4 +1,4 @@
-require_relative '03_title'
+require_relative 'helpers/title'
 
 title("Strings")
 # Basically text

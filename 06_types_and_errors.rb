@@ -1,4 +1,4 @@
-require_relative '03_title'
+require_relative 'helpers/title'
 
 title("Types, Coercion, and Casting")
 # Kinds of things and turning them from one to the other

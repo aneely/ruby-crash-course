@@ -1,4 +1,4 @@
-require_relative '03_title'
+require_relative 'helpers/title'
 
 module NumberUtilities
   def even_split?(num, by)
@@ -51,18 +51,18 @@ class FlyWhizz < FizzBuzz
   # else? Just Works™
   def format(number)
     if even_split?(number, 3) && even_split?(number, 5)
-      "Tony"
+      "Flywheel"
     elsif even_split?(number, 3)
-      "Rick"
+      "Kelsey"
     elsif even_split?(number, 5)
-      "Dusty"
+      "Tommy"
     else
-      "Karen"
+      "Amanda"
     end
   end
 end
 
 # Let's give feed it the input and press the button!
-puts "In honor of Fly Fest:"
+puts "In honor of Ruby on Ales:"
 FlyWhizz.new(15).output
 

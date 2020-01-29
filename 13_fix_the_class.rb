@@ -1,6 +1,6 @@
-require_relative '03_title'
+require_relative 'helpers/title'
 
-title("Extra-Classy")
+title("Extra Classy")
 # Let's make the factory build smarter robots
 
 module NumberUtilities
@@ -39,3 +39,4 @@ end
 puts "new fizzy hotness"
 fizzy = FizzBuzz.new(15)
 fizzy.output
+puts "\nWoo-hoo! We got our 'fizzbuzz' for 15 and it should scale up from here"

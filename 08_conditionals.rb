@@ -1,4 +1,4 @@
-require_relative '03_title'
+require_relative 'helpers/title'
 
 title("Conditionals")
 # How to do work only when you want it done
@@ -16,12 +16,12 @@ range.each do |number|
   if number.even?
     puts number
   else
-    puts "NOPE"
+    puts "odd"
   end
 end
 
 
-title("Back-to-FizzBuzz")
+title("Back to FizzBuzz")
 # The return of our problem to solve
 
 # Let's add another comparision with its own outcome:

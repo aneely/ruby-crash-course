@@ -1,3 +1,21 @@
+
+# This is a comment; it's text following a pound sign.
+# Humans can read comments, but Ruby ignores them.
+
+# They provide context to readers, like the next chunk of text.
+
+# You can ignore lines like this for now. Once you get to the
+# end, go to the 'helpers' folder and read the 'title.rb' file
+# to see what's going on.
+require_relative 'helpers/title'
+
+# Ignore lines like this for now, too. I bet you'll guess right
+# about what they do before we get to the end of the workshop.
+title("Puts Numbers")
+
+# Your first ruby keyword is 'puts'. It prints out the thing that follows it.
+# Open your terminal and type 'ruby 01_puts_numbers.rb' to see it in action.
+
 puts 1
 puts 2
 puts 3
@@ -28,3 +46,6 @@ puts 27
 puts 28
 puts 29
 puts 30
+
+# We got a list of numbers! But we need our "fizz, buzz, fizzbuzz", too.
+# Open the next file to keep going.

@@ -1,7 +1,4 @@
 
-# This is a comment; it's text following a pound sign.
-# Humans can read comments, but Ruby ignores them.
-
 # Ignore this for now; we'll come back to it.
 
 # TL;DR: title() is a tool to make this program's output

@@ -1,4 +1,4 @@
-require_relative '03_title'
+require_relative 'helpers/title'
 
 title("Variables")
 # Placeholders (buckets) for text, math, and other kinds of values
