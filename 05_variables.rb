@@ -22,3 +22,6 @@ puts number.negative?
 # BIG IDEA: We don't need to tell Ruby what kind of a value
 # we need to put in the bucket, just that we need one and
 # what we'll call it when we ask for it by name.
+
+# Extra credit: pick a random whole number, assign it to variable
+# and send it the 'odd?' and 'even?' messages. Then call 'to_s' on it.

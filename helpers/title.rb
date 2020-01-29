@@ -1,5 +1,6 @@
 
-# Ignore this for now; we'll come back to it.
+# Ignore this file for now; we'll come back to it.
+# It's being used by the rest of the demos, so you don't have to worry about running this one.
 
 # TL;DR: title() is a tool to make this program's output
 # a little easier to follow in the terminal. :)
@@ -19,4 +20,10 @@ rescue ArgumentError => error
   raise "#{error.class}: #{error}#{custom_message}"
 end
 
-# It's being used by the rest of the demos, so you don't have to worry about running this one.
+# pause() is a tool to allow use to wait for the user to hit enter/return
+# before continuing to run the program. We'll use this to break up longer
+# files on the same topic in this workshop.
+def pause_here
+  puts "\n\nHit ENTER to continue"
+  gets.chomp
+end

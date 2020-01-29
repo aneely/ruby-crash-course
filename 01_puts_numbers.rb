@@ -44,8 +44,8 @@ puts 25
 puts 26
 puts 27
 puts 28
-puts 29
-puts 30
+
+# Extra credit: add the lines for 29 and 30 above and re-run the file.
 
 # We got a list of numbers! But we need our "fizz, buzz, fizzbuzz", too.
 # Open the next file to keep going.

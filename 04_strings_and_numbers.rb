@@ -5,7 +5,8 @@ require_relative 'helpers/title'
 # Do the same pattern from now on.
 
 title("Strings")
-# Strings are basically just text. We use them for input and output.
+# Strings are basically just text. It's a quote (") some characters and a closing quote (").
+# In fact it's called a String because it's a string of characters. We use them for input and output.
 
 # BIG IDEA: Strings, like everything else in Ruby, are objects that can receive messages.
 
@@ -16,6 +17,9 @@ puts "fizz".upcase
 
 # The name of the message and the output should tell you all you need to know!
 # Each time the string gave us back a copy made sense based on what we sent.
+
+# Don't worry about this until the end, but feel free to guess as we go:
+pause_here
 
 title("Numbers")
 # Basically math: values and expressions that calculate values we need
@@ -32,5 +36,7 @@ puts 15 % 5
 puts 1.positive?
 puts 0.zero?
 puts -1.negative?
+
+# Extra credit: pick a random whole number and send it the 'odd?' and 'even?' messages.
 
 # Open the next file to keep going. I'll stop reminding you. You get it :)

@@ -23,4 +23,6 @@ print "\n"
 # feed it more things and it goes to the next line after each one.
 puts "Thing one", "Thing two"
 
+# Extra credit: add another line like the one above and have it output your name.
+
 # Open the next file to keep going.

@@ -41,7 +41,7 @@ number = 1234
 
 # puts number.reverse
 
-# It's because we're calling #reverse before turning a number into a string.
+# It's because we're sending 'reverse' before turning a number into a string.
 # BIG IDEA: the order of operations in a line of Ruby matters
 
 # The explosive line above is the same as:

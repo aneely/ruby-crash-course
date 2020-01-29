@@ -38,3 +38,4 @@ fuzzy.output
 # crap
 puts "\nWe need 15 to print 'fizzbuzz', not just 'fizz'... :thinking-face:"
 
+# Extra credit: can you fix the factory above to handle 15? Check the conditionals example.

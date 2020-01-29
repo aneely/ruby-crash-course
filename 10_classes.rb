@@ -34,9 +34,57 @@ class FizzBuzz
   end
 end
 
+# BIG IDEA: 'private' separates the public interface
+# from the private details that can change. This
+# let's our code change over time without users
+# having to worry about it breaking when they use it.
+# This is called encapsulation.
+
 # Let's turn it on!
 buzzy = FizzBuzz.new(10)
 # Now let's press the button to make it go!
 puts "buzzy the FizzBuzz robot's (instance) output:"
 buzzy.output
 
+pause_here
+
+# We can keep stamping them out with different input and
+# hitting their output buttons, too.
+
+puts "dizzy the FizzBuzz robot's (instance) output:"
+dizzy = FizzBuzz.new(12)
+dizzy.output
+
+pause_here
+
+# We don't even need to name them if we just want the output
+puts "\nUnnamed Robot: Why do I exist?"
+puts   "Programmer:    To print 'FizzBuzz"
+puts   "Unnamed Robot: ...oh my god..."
+FizzBuzz.new(13).output
+puts   "(garbage collector fires up and sweeps him away)"
+
+# Extra credit: The next factory is broken. Fix it up then
+# uncomment the last line from the file.
+
+# Counts up to a number, puts "Pling" if even, "Plong" if odd
+class PlingPlang
+  # when you turn it on, it needs input...
+  def initialize(number)
+    @range = (1..number)
+  end
+
+  # Then you tell it to do the work!
+  # Here's the button to press to make it go:
+  def output
+    @range.each do |number|
+      if
+        puts "Pling"
+      else
+        puts "Plang"
+      end
+    end
+  end
+end
+
+# PlingPlang.new(12).output

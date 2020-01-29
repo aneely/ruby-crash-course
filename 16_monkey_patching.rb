@@ -28,5 +28,5 @@ puts 15.even_split?(3)
 puts 15.even_split?(4)
 puts 15.even_split?(5)
 
-puts "\nAnd fizz buzz is just iterating outputing numbers as strings:"
+puts "\nAnd solving FizzBuzz is just iterating and outputting a range of numbers as strings:"
 (1..15).each { |number| puts number }

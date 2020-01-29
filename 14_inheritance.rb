@@ -66,3 +66,4 @@ end
 puts "In honor of Ruby on Ales:"
 FlyWhizz.new(15).output
 
+# Extra credit. Make your own subclass of FizzBuzz and print something else.

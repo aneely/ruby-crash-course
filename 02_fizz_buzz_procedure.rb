@@ -36,8 +36,8 @@ puts "buzz"
 puts 26
 puts "fizz"
 puts 28
-puts 29
-puts "fizzbuzz"
+
+# Extra credit: add the lines for 29 and 30 above and re-run the file.
 
 # This is what we'd call a big 'procedure'. It's a literal list of instructions
 # that run top to bottom. But this is all it can do. I can count less high by
