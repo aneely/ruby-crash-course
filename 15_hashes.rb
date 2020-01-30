@@ -22,7 +22,7 @@ puts "My name is #{name["first"]} #{name["last"]}"
 
 pause_here
 
-title("Hashes")
+title("Hashes as Configuration")
 
 # Here's the current way this has been built.
 

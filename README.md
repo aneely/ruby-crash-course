@@ -15,7 +15,7 @@ The material can be covered by reading and running the numbered files in order. 
 For ease of reading for beginners, classes and modules that are dependencies are grouped in the same files for the most part.
 
 ## TODO
-Topics yet to cover include: structs, metaprogramming, any kind of deep-dive of standard library features, requiring files in depth, and gems/frameworks. 
+Topics yet to cover include: structs, metaprogramming, nil, any kind of deep-dive of standard library features, requiring files in depth, and gems/frameworks. 
 
 ## Housekeeping
 The code has been tested with Ruby 2.5. This crash-course has been developed by Andrew Neely (@ravinglogic on Twitter and @aneely on Github) with the sponsorship of [Flywheel](getflywheel.com) and is licensed under the MIT license. Attribution is appreciated if you find this useful in introducing more people to Ruby.
