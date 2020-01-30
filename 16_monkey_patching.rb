@@ -28,5 +28,8 @@ puts 15.even_split?(3)
 puts 15.even_split?(4)
 puts 15.even_split?(5)
 
-puts "\nAnd solving FizzBuzz is just iterating and outputting a range of numbers as strings:"
+puts "\nAnd solving FizzBuzz is just outputting a range of numbers as strings:"
 (1..15).each { |number| puts number }
+
+# Congratulations! You've made it to the end of the crash course!
+# Extra credit: Now go back to the 'helpers/' directory and read the 'title.rb' file.
