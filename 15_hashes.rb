@@ -24,6 +24,8 @@ pause_here
 
 title("Hashes")
 
+# Here's the current way this has been built.
+
 module NumberUtilities
   def even_split?(num, by)
     num % by == 0
@@ -45,11 +47,15 @@ class FizzBuzz
 
   private
 
-  # This is now another gear inside the robot
+  # Look our gear inside the robot...
   def format(number)
-    # Start with an empty string;
-    # maybe change it, but definitely return it.
     "".tap do |output|
+      # The next two lines will only ever give us
+      # the fizzbuzz behavior we've been after.
+      #
+      # What if we wanted to be able to turn these
+      # into configuration data being read from
+      # our robot's memory bank after we turn it on?
       output << "fizz" if even_split?(number, 3)
       output << "buzz" if even_split?(number, 5)
       output << number.to_s if output.empty?
@@ -57,7 +63,7 @@ class FizzBuzz
   end
 end
 
-# Let's subclass FizzBuzz and specialize it to run on a hash
+# Let's specialize (subclass) FizzBuzz to base the output on a hash
 
 class FuzzBizz < FizzBuzz
   include NumberUtilities
@@ -65,12 +71,16 @@ class FuzzBizz < FizzBuzz
   # turn it on, give it input...
   def initialize(number)
     @range = (1..number)
+    # Now the behavior of the robot is being driven
+    # by configuration data! And there's just one
+    # place we can change to change behavior. :)
     @format_data = { "fuzz" => 3, "bizz" => 5 }
   end
 
   private
 
-  # This is a different gear inside the robot
+  # Let's swap in a different gear to read from
+  # our robot's memory bank.
   def format(number)
     # Start with an empty string;
     # maybe change it, but definitely return it.
