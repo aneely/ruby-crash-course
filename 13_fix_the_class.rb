@@ -26,11 +26,17 @@ class FizzBuzz
 
   # This is now another gear inside the robot
   def format(number)
-    # Start with an empty string;
-    # maybe change it, but definitely return it.
+    # Let's learn an alternative to if..elsif..elsif..else for handling 15:
+    # Start with an empty string, maybe change it, but definitely return it.
     "".tap do |output|
+      # Add 'fizz' to the end of whatever's in the string.
+      # Note: adding "fizz" to the end of "" gives us "fizz"
       output << "fizz" if even_split?(number, 3)
+      # Add 'buzz' to the end of whatever's in the string.
+      # Note: adding "buzz" to the end of "" gives us "buzz"...
+      # adding "buzz" to the end of "fizz" gives us "fizzbuzz"
       output << "buzz" if even_split?(number, 5)
+      # If nothing was added, lets just cast the number and add that to the end.
       output << number.to_s if output.empty?
     end
   end
