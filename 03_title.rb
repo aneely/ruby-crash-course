@@ -23,3 +23,11 @@ rescue ArgumentError => error
 end
 
 # It's being used by the rest of the demos, so you don't have to worry about running this one.
+
+# pause() is a tool to allow use to wait for the user to hit enter/return
+# before continuing to run the program. This is being used by `main.rb`
+# for running the workshop in REPL.it so the `run` button does something.
+def pause_here
+  puts "\n\nHit ENTER to continue"
+  gets.chomp
+end
