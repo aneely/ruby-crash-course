@@ -1,6 +1,6 @@
 # Ruby Crash Course
 
-As of late January 2020, you can run this material in a browser by going to: https://repl.it/@aneely/ruby-crash-course
+As of late January 2021, you can run this material in a browser by going to: https://repl.it/@aneely/ruby-crash-course
 
 This project is a collection of Ruby language concepts demonstrated in the context of solving the classic programming exercise "Fizz Buzz". The big idea was to distill the first week of a coding boot camp into a single session that takes people from zero to real Ruby code that solves the problem.
 
