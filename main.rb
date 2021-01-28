@@ -11,7 +11,7 @@ puts "- Open a terminal (Cmd-Shift-S for a Mac viewing this in REPL.it)."
 puts "- In the terminal, type 'ruby 01_puts_numbers.rb' and hit return (enter) to run the first file."
 print "Tip: In bash or zsh, type 'ruby 01' hit tab to complete the file name before hitting return."
 pause_here
-puts "If your on your own machine and get an error, you might not have Ruby installed."
+puts "If you're on your own machine and get an error, you might not have Ruby installed."
 print "Check the instructions here: https://www.ruby-lang.org/en/documentation/installation/"
 pause_here
 puts "Step 3) Keep going! The context for the code is in the files and they're in a sequence."
