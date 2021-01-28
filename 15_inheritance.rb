@@ -42,8 +42,8 @@ title("Specialized Classes")
 # That's where inheritance come in handy!
 
 # By inheriting from (or subclassing) FizzBuzz,
-# FlyWhizz pick up everything that factory know how to build.
-class FlyWhizz < FizzBuzz
+# StockWhizz pick up everything that factory know how to build.
+class StockWhizz < FizzBuzz
   private
 
   # By changing (or overriding) #format, we only override
@@ -51,18 +51,18 @@ class FlyWhizz < FizzBuzz
   # else? Just Works™
   def format(number)
     if even_split?(number, 3) && even_split?(number, 5)
-      "Tony"
+      "Bed, Bath, Beyond"
     elsif even_split?(number, 3)
-      "Rick"
+      "AMC"
     elsif even_split?(number, 5)
-      "Dusty"
+      "BlackBerry"
     else
-      "Karen"
+      "GameStop"
     end
   end
 end
 
 # Let's give feed it the input and press the button!
 puts "In honor of Fly Fest:"
-FlyWhizz.new(15).output
+StockWhizz.new(15).output
 
