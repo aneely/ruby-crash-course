@@ -63,6 +63,6 @@ class StockWhizz < FizzBuzz
 end
 
 # Let's give feed it the input and press the button!
-puts "In honor of Fly Fest:"
+puts "In honor of late January 2021:"
 StockWhizz.new(15).output
 
